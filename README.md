@@ -34,5 +34,5 @@ The first frame of the frames list is used as the base frame. The save() method 
 - append_images=frames[1:]: Appends the remaining frames (starting from the second frame) to the base frame.
 - duration=500: Sets the duration (in milliseconds) for each frame to be displayed. In this case, each frame will be displayed for 500 milliseconds (or 0.5 seconds).
 - loop=0: Specifies the number of loops for the GIF. A value of 0 means infinite looping.
-- 
+
 In summary, the code reads a sequence of input images, creates a list of frames, and then saves these frames as a GIF animation with specified parameters.
